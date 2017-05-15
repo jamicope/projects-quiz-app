@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    text-align: center;
+}
+
+html {
+    background: url("images/aspen-rounds.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header,
+section {
+    width: 50%;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgba(125, 150, 121, 0.9);
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+header {
+    margin-top: 2rem;
+    display: inline-block;
+    font-family: arial;
+    text-align: center;
+}
+
+header h1 img {
+    /*I think I would rather have it set at a % so it will be responsive to screen size, but can't get that to work */
+    height: 50px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section.start-page p {
+    margin: 1rem auto;
+}
+
+section button {
+    font-size: 1rem;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section button:hover {
+    background-color: aliceblue;
+}
+
+section ul {
+    width: 70%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.quiz-questions div img {
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+section ul li {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding-left: 5px;
+}
+
+section ul li input {
+    margin-left: 0;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+section div.question-results {
+    width: 70%;
+    display: block;
+    margin: 1rem auto;
+}
+
+section div.question-results h4,
+section div.question-results h5 {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 0;
+}
+
+section div.question-results h5 {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 60em) {
+    img.second-header-pic {
+        display: none;
+    }
+}
+
+@media (max-width: 40em) {
+    img.first-header-pic {
+        display: none;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    body {
+        margin-top: 2rem;
+    }
+}

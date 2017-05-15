@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WoodWorker's Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="images/sawblade.png" alt="saw blade" class="first-header-pic"> The Ultimate Woodworker's Quiz
+            <img src="images/sawblade.png" alt="saw blade" class="second-header-pic">
+        </h1>
+    </header>
+    <section class="start-page">
+        <h2>Are you a wood junkie?</h2>
+        <p>Take this quiz to see what you really know!</p>
+        <button class="start-button" id="startQuizButton">Start</button>
+    </section>
+    <section class="quiz-questions">
+        <h3>What causes the blue, purple, and gray coloring in Beetle Kill Pine lumber?</h3>
+        <div></div>
+        <ul id="choices">
+            <li><input type="radio" class="option" name="option" value="0">sap that stayed in tree after it died</li>
+            <li><input type="radio" class="option" name="option" value="1">minerals produced by the tree to kill beetles</li>
+            <li><input type="radio" class="option" name="option" value="2">some trees are just like that</li>
+            <li><input type="radio" class="option" name="option" value="3">blue stain pine fungus that is carried by the Pine Beetle</li>
+        </ul>
+        <p class="question-number">Question 5 of 10</p>
+        <p class="correct-answers">Your score is: 3 out of 10</p>
+    </section>
+    <section class="results">
+        <h3>Final Score</h3>
+        <p class="final-score">4 of 10</p>
+        <div class="question-results">
+            <h4>Q: What type of wood is this?</h4>
+            <h5>A: Black Walnut is known for its hardness and dark brown inner coloring with outer light beige outer ring</h5>
+            <h4>Q: Which type of fasteners would be best when building a table of Beetle Kill Pine?</h4>
+            <h5>A: Hidden tenons allow for more wood movement as Pine is especially known for continual expansion and contraction.</h5>
+            <h4>Q: What causes the blue, purple, and gray coloring in Beetle Kill Pine lumber?</h4>
+            <h5>A: The blue stain pine fungus works symbiotically with the beetles by turning the tree wood into nutrients.</h5>
+            <h4>Q: When would you use a Kreg screw?</h4>
+            <h5>A: Typically Kreg screws are used when mechanically fastening wood to a pre-existing surface, such as installing new cabinetry.</h5>
+            <h4>Q: What is a hidden tenon</h4>
+            <h5>A: It is a joinery method that uses small domino-like wood pieces inserted into holes with wood glue to create strong joints.</h5>
+            <h4>Q: Which option best describes a “live edge”?</h4>
+            <h5>A: Furniture with the de-barked natural edge</h5>
+            <h4>Q: How could one add a live edge to a planed board?</h4>
+            <h5>A: Hidden tenons with wood glue will give the tightest joint and is most unlikely to fail.</h5>
+            <h4>Q: What is the function of a jointer?</h4>
+            <h5>A: A jointer cuts an extremely flat surface so that joint has gap in the seam</h5>
+            <h4>Q: For a crosscut, which tool would you use?</h4>
+            <h5>A: A chop saw is the safest choice.</h5>
+            <h4>Q: When hand-sanding, why is it best to sand in the direction of the grain?</h4>
+            <h5>A: Sanding in the direction of the grain will help you avoid the look of sanding marks cutting through wood grain.</h5>
+            <button class="start-button" id="tryAgainButton">Try Again</button>
+        </div>
+    </section>
+    <footer>Designed by Jami Cope </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
